@@ -46,4 +46,6 @@ set bufhidden=hide
 
 "Have 3 lines of offset (or buffer) when scrolling
 set scrolloff=3
+
+"Update helptags
 Helptags
