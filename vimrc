@@ -1,51 +1,42 @@
 execute pathogen#infect()
+"#### Behavior and layout 
 set nocompatible
-set bs=2 "set backspace to be able to delete previous characters”Enable line numbering, taking up 6 spaces
-set number
+set bs=2 "set backspace to be able to delete previous characters
+set number "Enable line numbering, taking up 6 spaces
 set laststatus=2   " Always show the statusline
-
-"Turn off word wrapping
-set wrap!
-
-"Turn on smart indent
-set smartindent
-set tabstop=4 "set tab character to 4 characters
-set expandtab "turn tabs into whitespace
-set shiftwidth=4 "indent width for autoindent
-filetype plugin indent on "indent depends on filetype
-
-"Shortcut to list hidden characters
-nmap <C-l> :set list!<CR>
-
-"Shortcut to auto indent entire file
-nmap <F11> 1G=G
-imap <F11> <ESC>1G=Ga
-
-"Turn on incremental search with ignore case (except explicit caps)
-set incsearch
-set ignorecase
-set smartcase
-
-"Informative status line
-"set statusline=%F%m%r%h%w\ [TYPE=%Y\ %{&ff}]\ [%l/%L\ (%p%%)]
 
 "Set color scheme
 set t_Co=256
 colorscheme desert
 syntax enable
 
-"Enable indent folding
-"set foldenable
-"set fdm=indent
 
+"#### How to display the code...
+set wrap! "Turn off auto line splitting
+set scrolloff=3 "Have 3 lines of offset (or buffer) when scrolling
+
+
+"#### Identation"
+set smartindent
+set tabstop=4 "set tab character to 4 characters
+set expandtab "turn tabs into whitespace
+set shiftwidth=4 "indent width for autoindent
+filetype plugin indent on "indent depends on filetype
+
+
+"#### Searching
+"Turn on incremental search with ignore case (except explicit caps)
+set incsearch
+set ignorecase
+set smartcase
+
+
+"#### Shortcuts
+"Shortcut to list hidden characters
+nmap <C-l> :set list!<CR>
 "Set space to toggle a fold
 nnoremap <space> za
 
-"Hide buffer when not in window (to prevent relogin with FTP edit)
-set bufhidden=hide
-
-"Have 3 lines of offset (or buffer) when scrolling
-set scrolloff=3
 
 "Update helptags
 Helptags
