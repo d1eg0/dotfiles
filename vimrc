@@ -36,6 +36,8 @@ set smartcase
 nmap <C-l> :set list!<CR>
 "Set space to toggle a fold
 nnoremap <space> za
+"flake8 (pep8 python)
+nmap <C-i> :!clear<CR>:!flake8 % 
 
 
 "Update helptags
