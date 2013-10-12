@@ -1,5 +1,6 @@
 *.swp
 *.un~
+vim/.netrwhist*
 let g:netrw_dirhistmax  =10
 let g:netrw_dirhist_cnt =7
 let g:netrw_dirhist_1='/home/diego/Petprojects/virtualenvs/myblogenv/mysite/blog'
