@@ -8,6 +8,7 @@ autocmd InsertEnter * :set number
 autocmd InsertLeave * :set relativenumber
 "set relativenumber
 
+set clipboard=unnamed
 "Set color scheme
 set t_Co=256
 syntax enable
