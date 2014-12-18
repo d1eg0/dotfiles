@@ -4,11 +4,15 @@ set nocompatible
 set bs=2 "set backspace to be able to delete previous characters
 set number "Enable line numbering, taking up 6 spaces
 set laststatus=2   " Always show the statusline
+autocmd InsertEnter * :set number
+autocmd InsertLeave * :set relativenumber
+"set relativenumber
 
 "Set color scheme
 set t_Co=256
 colorscheme desert
 syntax enable
+highlight LineNr ctermfg=red
 
 
 "#### How to display the code...
