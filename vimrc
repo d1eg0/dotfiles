@@ -10,9 +10,14 @@ autocmd InsertLeave * :set relativenumber
 
 "Set color scheme
 set t_Co=256
-colorscheme desert
 syntax enable
-highlight LineNr ctermfg=red
+set background=dark
+"colorscheme desert
+let g:solarized_termcolors = 256
+let g:solarized_visibility = "high"
+let g:solarized_contrast = "high"
+colorscheme solarized 
+"highlight LineNr ctermfg=red
 
 
 "#### How to display the code...
