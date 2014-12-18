@@ -40,5 +40,9 @@ nnoremap <space> za
 nmap <C-i> :!clear<CR>:!flake8 % 
 
 
+"NEERDTree
+nmap <C-e> :NERDTreeTabsToggle<CR>
+let g:nerdtree_tabs_open_on_console_startup=1
+
 "Update helptags
 Helptags
