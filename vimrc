@@ -54,5 +54,8 @@ nmap <C-i> :!clear<CR>:!flake8 %
 nmap <C-e> :NERDTreeTabsToggle<CR>
 let g:nerdtree_tabs_open_on_console_startup=1
 
+"Tagbar
+nmap <F8> :TagbarToggle<CR>
+
 "Update helptags
 Helptags
