@@ -58,4 +58,4 @@ let g:nerdtree_tabs_open_on_console_startup=1
 nmap <F8> :TagbarToggle<CR>
 
 "Update helptags
-Helptags
+"Helptags
