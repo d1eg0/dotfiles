@@ -3,13 +3,13 @@
 	url = https://github.com/hynek/vim-python-pep8-indent.git
 [submodule "vim/bundle/snipmate-vim"]
 	path = vim/bundle/snipmate-vim
-	url = git://github.com/msanders/snipmate.vim.git
+	url = https://github.com/msanders/snipmate.vim.git
 [submodule "vim/bundle/vim-javascript"]
 	path = vim/bundle/vim-javascript
-	url = git://github.com/pangloss/vim-javascript.git
+	url = https://github.com/pangloss/vim-javascript.git
 [submodule "vim/bundle/vim-css-color"]
 	path = vim/bundle/vim-css-color
-	url = git://github.com/ap/vim-css-color.git
+	url = https://github.com/ap/vim-css-color.git
 [submodule "vim/bundle/vim-scala"]
 	path = vim/bundle/vim-scala
 	url = https://github.com/derekwyatt/vim-scala.git

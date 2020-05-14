@@ -6,3 +6,7 @@ Installation
     git submodule update
     source create_symblinks.sh
     source tmux_color_fix.sh
+    cd ~/.vim/bundle/YouCompleteMe
+    git submodule update --init --recursive
+    sudo apt-get install build-essential cmake python-dev
+    ./install.sh
